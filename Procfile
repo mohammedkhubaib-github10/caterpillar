@@ -1,1 +1,1 @@
-web: gunicorn wish:app
+web: python wish.py
