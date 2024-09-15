@@ -13,7 +13,7 @@ def wish_birthday():
     messagedic = {}
     mes=[]
     for i in range(0, len(message)):
-        messagedic={f'message {i + 1}':message[i]}
+        messagedic={'message':message[i]}
         mes.append(messagedic)
 
     # Return the message as JSON response
